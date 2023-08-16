@@ -1,0 +1,110 @@
+:root {
+  --primary: #000000;
+}
+
+h2{
+  color: rgb(0, 0, 0);
+}
+.header-top{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(241, 241, 241);
+  margin: auto;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  border-bottom: 1px solid rgb(211, 211, 211, 0.5);
+}
+
+.logo{
+  display: inline-block;
+  padding-right: 40px;
+  padding-left: 20px;
+  color: rgb(255, 65, 166);
+}
+
+.serach-bar{
+  border-radius: 15px;
+  border: 1px solid black;
+  width: 250px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.srch-txt{
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+#input{
+  border:none ;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.srch-icon{
+  float: right;
+  padding-right: 10px;
+  font-weight: lighter;
+}
+
+.icons-container{
+  display: inline-block; 
+  padding-left:590px;
+}
+
+#time{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right:15px;
+}
+
+#i-1{
+  color: rgb(0, 132, 255);
+  font-size: larger;
+  padding-right: 5px;
+}
+
+#i-2{
+  color: black;
+  font-size: larger;
+  padding-right: 15px;
+}
+
+/* Media Queries */
+
+
+
+@media only screen and (max-width: 768px) {
+  .icons-container {
+    padding-left: 30px;
+  }
+  
+  #input {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .logo {
+    padding-left: 10px;
+  }
+  
+  .search-bar {
+    width: 150px;
+  }
+  
+  #input {
+    width: 80px;
+  }
+  
+  .icons-container {
+    padding-left: 10px;
+  }
+}
+
+
